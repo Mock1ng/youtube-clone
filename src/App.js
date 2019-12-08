@@ -39,13 +39,6 @@ const App = () => {
     view: '5k',
     time: '8 minutes',
     duration: '1:40'
-  },
-  {
-    channel_name: 'Fadhil',
-    title: 'Nanda',
-    view: '1.2M',
-    time: '2 minutes',
-    duration: '30:40'
   }];
 
   return (
