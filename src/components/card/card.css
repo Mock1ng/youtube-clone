@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-wrapper {
+    width: 260px;
+    height: 260px;
+    margin: 15px;
+    display: inline-block;
+}
+
+.thumbnail-wrapper,
+.thumbnail-wrapper img {
+    width: 260px;
+    height: 137px;
+}
+
+.thumbnail-wrapper {
+    position: relative;
+}
+
+.duration {
+    position: absolute;
+    right: 7px;
+    bottom: 7px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 1px 2px;
+    font-size: 0.8rem;
+    width: 43px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.card-info {
+    display: flex;
+    height: 90px;
+    margin-top: 10px;
+}
+
+.desc {
+    margin-left: 15px;
+}
+
+.title {
+    font-size: 1.3rem;
+    margin-bottom: 3px;
+}
+
+
+.channel-logo,
+.channel-logo img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.channel-name,
+.view-time {
+    font-size: 13px;
+    font-weight: unset;
+    color: #777;
+}
+
+.span-view::after {
+    content: '•';
+}
